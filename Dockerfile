@@ -11,5 +11,5 @@ COPY --from=builder /usr/src/app /usr/src/app
 ENV NODE_ENV=production \
     NODEBB_SKIP_BUILD=1
 EXPOSE 4567
-CMD ["./nodebb", "start", "-p", "0.0.0.0"]
+CMD ["./nodebb", "start"]
 
