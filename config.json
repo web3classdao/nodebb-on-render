@@ -1,0 +1,12 @@
+{
+  "url": "https://daolab-nodebb.onrender.com",
+  "secret": "0x99E04b671D4946567F835F45f32dDB3A3CecA59c",
+  "database": "mongo",
+  "mongo": {
+    "uri": "mongodb+srv://nodebb:ajOl6PqdnIfbhN92@daolab.7zlfd9w.mongodb.net/nodebb?retryWrites=true&w=majority"
+  },
+  "redis": {
+    "url": "redis://red-d1rr0qur433s73am8850:6379"
+  }
+}
+
